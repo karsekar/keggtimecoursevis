@@ -1,7 +1,7 @@
 __author__ = 'sekark'
 
 # Convert Kegg Network to JSON for import into visualization
-# Kegg metabolic networks can be downloaded from http://rest.kegg.jp/
+# Kegg metabolic networks can be downloaded from http://rest.kegg.jp/ (example: http://rest.kegg.jp/get/sce01100/kgml)
 # Save the file as an xml to use as the input for this script and generate the network JSON
 
 import networkx as nx
